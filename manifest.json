@@ -1,0 +1,502 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/GitTest/toughcloud2/DocGen_ToughcloudLib/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.ApiException-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.ApiException-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.ApiException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.ApiException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.FileDeleteFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.FileDeleteFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.FileDeleteResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.FileDeleteResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.FileParameter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.FileParameter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.FileResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.FileResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.FileStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.FileStatus.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.FileStatusFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.FileStatusFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.FileUpDownFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.FileUpDownFlags.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.StringInt64Tuple.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.StringInt64Tuple.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.ToughcloudClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.ToughcloudClient.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.ToughcloudVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.ToughcloudVersion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lokblok.Toughcloud.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lokblok.Toughcloud.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.AgentEnrollmentRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.AgentEnrollmentRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.CompleteRecoveryRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.CompleteRecoveryRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.EnrollmentRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.EnrollmentRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.EnrollmentRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.EnrollmentRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.PreCompleteRecoveryRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.PreCompleteRecoveryRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.RaRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.RaRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.RecoveredSecret.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.RecoveredSecret.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.RecoveryRequestRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.RecoveryRequestRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.RecoveryResponseRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.RecoveryResponseRecord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.SessionTransportEncryptRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.SessionTransportEncryptRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.SessionTransportRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.SessionTransportRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.StartRecoveryRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.StartRecoveryRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.UsersRecoveryAgents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.UsersRecoveryAgents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughboxAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughboxAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.EnrollmentRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.EnrollmentRequest.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.FileUploadResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.FileUploadResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.InitDataResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.InitDataResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.RequestData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.RequestData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.ToughcloudClientAPI.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.ToughcloudClientAPI.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.ToughcloudClientLibException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.ToughcloudClientLibException.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.ToughcloudClientLibResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.ToughcloudClientLibResponse.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ToughcloudClientLib.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ToughcloudClientLib.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html"
+        },
+        ".json": {
+          "relative_path": "articles/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/usingsdk.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/usingsdk.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/UploadtoToughcloud.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/UploadtoToughcloud.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/authtoughcloud.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/authtoughcloud.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/toughcloudrecovery.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/toughcloudrecovery.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/toughcloudsdkcover.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/toughcloudsdkcover.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "version.md",
+      "output": {
+        ".html": {
+          "relative_path": "version.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
