@@ -36,7 +36,7 @@
               </button>
 
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -116,13 +116,7 @@
 
                         <ul class="nav level2">
                           <li class="">
-                            <a href="ToughboxAPI.AgentEnrollmentRecord.html" title="AgentEnrollmentRecord" class="">AgentEnrollmentRecord</a>
-                          </li>
-                          <li class="">
                             <a href="ToughboxAPI.CompleteRecoveryRequest.html" title="CompleteRecoveryRequest" class="">CompleteRecoveryRequest</a>
-                          </li>
-                          <li class="">
-                            <a href="ToughboxAPI.EnrollmentRecord.html" title="EnrollmentRecord" class="">EnrollmentRecord</a>
                           </li>
                           <li class="">
                             <a href="ToughboxAPI.EnrollmentRequest.html" title="EnrollmentRequest" class="">EnrollmentRequest</a>
@@ -131,28 +125,13 @@
                             <a href="ToughboxAPI.PreCompleteRecoveryRequest.html" title="PreCompleteRecoveryRequest" class="">PreCompleteRecoveryRequest</a>
                           </li>
                           <li class="">
-                            <a href="ToughboxAPI.RaRecord.html" title="RaRecord" class="">RaRecord</a>
-                          </li>
-                          <li class="">
-                            <a href="ToughboxAPI.RecoveredSecret.html" title="RecoveredSecret" class="">RecoveredSecret</a>
-                          </li>
-                          <li class="">
-                            <a href="ToughboxAPI.RecoveryRequestRecord.html" title="RecoveryRequestRecord" class="">RecoveryRequestRecord</a>
-                          </li>
-                          <li class="">
                             <a href="ToughboxAPI.RecoveryResponseRecord.html" title="RecoveryResponseRecord" class="">RecoveryResponseRecord</a>
                           </li>
                           <li class="">
                             <a href="ToughboxAPI.SessionTransportEncryptRequest.html" title="SessionTransportEncryptRequest" class="">SessionTransportEncryptRequest</a>
                           </li>
                           <li class="">
-                            <a href="ToughboxAPI.SessionTransportRequest.html" title="SessionTransportRequest" class="">SessionTransportRequest</a>
-                          </li>
-                          <li class="">
                             <a href="ToughboxAPI.StartRecoveryRequest.html" title="StartRecoveryRequest" class="">StartRecoveryRequest</a>
-                          </li>
-                          <li class="">
-                            <a href="ToughboxAPI.UsersRecoveryAgents.html" title="UsersRecoveryAgents" class="">UsersRecoveryAgents</a>
                           </li>
                         </ul>                    </li>
                     <li class="">
@@ -285,7 +264,7 @@ The file name may not contain any of the special characters listed below
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">userRecoveryAgentsStr</span></td>
-        <td><p>userRecoveryAgents required for secret enrollment. json serialized object of type <a class="xref" href="ToughboxAPI.UsersRecoveryAgents.html">UsersRecoveryAgents</a></p>
+        <td><p>userRecoveryAgents required for secret enrollment. json serialized object of type <span class="xref">ToughboxSvc.Models.V2.AgentsList</span></p>
 </td>
       </tr>
       <tr>
@@ -458,13 +437,13 @@ On exception respnse=&quot;exception&quot; and &quot;value&quot;=type <a class="
 
 
   <a id="ToughcloudClientLib_ToughcloudClientAPI_FileStatus_" data-uid="ToughcloudClientLib.ToughcloudClientAPI.FileStatus*"></a>
-  <h4 id="ToughcloudClientLib_ToughcloudClientAPI_FileStatus_System_String_System_String_System_String_" data-uid="ToughcloudClientLib.ToughcloudClientAPI.FileStatus(System.String,System.String,System.String)">FileStatus(string, string, string)</h4>
+  <h4 id="ToughcloudClientLib_ToughcloudClientAPI_FileStatus_System_String_System_String_System_String_System_String_" data-uid="ToughcloudClientLib.ToughcloudClientAPI.FileStatus(System.String,System.String,System.String,System.String)">FileStatus(string, string, string, string?)</h4>
   <div class="markdown level1 summary"><p>Returns information about the file stored in Toughcloud</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string FileStatus(string clientInfoStr, string fileName, string optionFlags)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string FileStatus(string clientInfoStr, string fileName, string optionFlags, string? authToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-condensed">
@@ -493,6 +472,13 @@ The objectname is returned upon successful upload in the response <a class="xref
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><span class="parametername">optionFlags</span></td>
         <td><p>Json serialized object of type <a class="xref" href="Lokblok.Toughcloud.FileStatusFlags.html">FileStatusFlags</a> to get extended information including any back ups stored</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><span class="parametername">authToken</span></td>
+        <td><p>an authentication token generated using the Toughbox service authorizing this action.
+details are in theToughbox API documentation for the AuthorizeToughcloudAction REST API</p>
 </td>
       </tr>
     </tbody>
@@ -629,7 +615,7 @@ This object is documented in detail in the Toughbox service REST API documentati
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><p>json serialized string of type <a class="xref" href="ToughcloudClientLib.ToughcloudClientLibResponse.html">ToughcloudClientLibResponse</a>
-On success response=&quot;success&quot; and &quot;value&quot;=object of type <a class="xref" href="ToughboxAPI.RecoveryRequestRecord.html">RecoveryRequestRecord</a>/&gt;
+On success response=&quot;success&quot; and &quot;value&quot;=object of type <span class="xref">ToughboxSvc.Models.RecoveryRequestRecord</span>/&gt;
 On exception respnse=&quot;exception&quot; and &quot;value&quot;=type <a class="xref" href="ToughcloudClientLib.ToughcloudClientLibException.html">ToughcloudClientLibException</a></p>
 </td>
       </tr>
@@ -686,6 +672,33 @@ is the payload from a call to Toughbox service CompleteRecoverSecret</p>
         <td><p>json serialized string of type <a class="xref" href="ToughcloudClientLib.ToughcloudClientLibResponse.html">ToughcloudClientLibResponse</a>
 On success response=&quot;success&quot; and &quot;value&quot;=&quot;Toughcloud Recover succesful&quot;/&gt;
 On exception respnse=&quot;exception&quot; and &quot;value&quot;=type <a class="xref" href="ToughcloudClientLib.ToughcloudClientLibException.html">ToughcloudClientLibException</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <a id="ToughcloudClientLib_ToughcloudClientAPI_ToughcloudGenRandom_" data-uid="ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom*"></a>
+  <h4 id="ToughcloudClientLib_ToughcloudClientAPI_ToughcloudGenRandom" data-uid="ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom">ToughcloudGenRandom()</h4>
+  <div class="markdown level1 summary"><p>Generate a random byte array</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToughcloudGenRandom()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td><p>Returns a Base64-encoded 48 bytes in length random byte array</p>
 </td>
       </tr>
     </tbody>
@@ -766,7 +779,7 @@ session SecretID to start a transport session.</p>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
         <td><p>json serialized string of type <a class="xref" href="ToughcloudClientLib.ToughcloudClientLibResponse.html">ToughcloudClientLibResponse</a>
-On success response=&quot;success&quot; and &quot;value&quot;=type of <a class="xref" href="ToughboxAPI.SessionTransportRequest.html">SessionTransportRequest</a>
+On success response=&quot;success&quot; and &quot;value&quot;=type of <span class="xref">ToughboxSvc.Models.SessionTransportRequest</span>
 On exception respnse=&quot;exception&quot; and &quot;value&quot;=type <a class="xref" href="ToughcloudClientLib.ToughcloudClientLibException.html">ToughcloudClientLibException</a></p>
 </td>
       </tr>

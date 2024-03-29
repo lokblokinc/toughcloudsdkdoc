@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/GitTest/toughcloud2/DocGen_ToughcloudLib/docfx_project",
+  "source_base_path": "C:/LokBlok/GitReidBranch/toughcloud2/DocGen_ToughcloudLib/docfx_project",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -145,30 +145,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToughboxAPI.AgentEnrollmentRecord.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToughboxAPI.AgentEnrollmentRecord.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ToughboxAPI.CompleteRecoveryRequest.yml",
       "output": {
         ".html": {
           "relative_path": "api/ToughboxAPI.CompleteRecoveryRequest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToughboxAPI.EnrollmentRecord.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToughboxAPI.EnrollmentRecord.html"
         }
       },
       "version": ""
@@ -195,30 +175,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToughboxAPI.RaRecord.yml",
+      "source_relative_path": "api/ToughboxAPI.RaRecordX.yml",
       "output": {
         ".html": {
-          "relative_path": "api/ToughboxAPI.RaRecord.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToughboxAPI.RecoveredSecret.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToughboxAPI.RecoveredSecret.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToughboxAPI.RecoveryRequestRecord.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToughboxAPI.RecoveryRequestRecord.html"
+          "relative_path": "api/ToughboxAPI.RaRecordX.html"
         }
       },
       "version": ""
@@ -245,30 +205,10 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/ToughboxAPI.SessionTransportRequest.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToughboxAPI.SessionTransportRequest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/ToughboxAPI.StartRecoveryRequest.yml",
       "output": {
         ".html": {
           "relative_path": "api/ToughboxAPI.StartRecoveryRequest.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/ToughboxAPI.UsersRecoveryAgents.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/ToughboxAPI.UsersRecoveryAgents.html"
         }
       },
       "version": ""
@@ -435,16 +375,6 @@
       "output": {
         "resource": {
           "relative_path": "images/authtoughcloud.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "images/toughcloudrecovery.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/toughcloudrecovery.png"
         }
       },
       "version": ""

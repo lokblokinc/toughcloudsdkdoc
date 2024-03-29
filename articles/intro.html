@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>Overview </title>
+      <title>What is Toughcloud </title>
       <meta name="viewport" content="width=device-width">
-      <meta name="title" content="Overview ">
+      <meta name="title" content="What is Toughcloud ">
     
       <link rel="shortcut icon" href="../favicon.ico">
       <link rel="stylesheet" href="../styles/docfx.vendor.min.css">
@@ -34,7 +34,7 @@
               </button>
 
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -95,10 +95,25 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="overview">Overview</h1>
+<h1 id="what-is-toughcloud">What is Toughcloud</h1>
 
-<p>The library Dll is a .NET library with the classes and interfaces
-described below. To call/invoke these from Java script one method is to
+<p>Toughcloud is a service offering from <a href="https://lokblok.co/building-bloks/">LokBlok</a>
+that offers secure multicloud storage for data, backup and recovery.</p>
+<p>Toughcloud is a sharding storage platform where data is split and stored on multiple
+cloud platforms creating a resilient and highly secure data storage, backup and recovery system.
+Data �blobs� are broken up and stored using a k of n algorithm similar to the way RAID storage
+uses Reed Solomon and other algorithms to securely store data across multiple storage systems.
+Stored digital assets cannot be accessed from a single cloud service but requires the recovery
+of digital asset pieces from multiple clouds to reconstitute the original digital asset using
+the user�s private key (that is also reconstituted within a Toughkey hardware security module).</p>
+<p>Toughcloud typically works in conjunction with Toughbox, which is a Key recovery without custody
+platform service offering from LokBlok. Toughbox provides developers with an easily implementable system to
+allow secure, non-custodial backup and recovery by assigning trusted �k of n� recovery agents.</p>
+<h1 id="overview">Overview</h1>
+<p>The Toughcloud SDK is a set of .NET libraries with the classes and interfaces
+allowing secure storage. It also contains fully working and integrated with Toughbox
+sample code demonstrating usage from JavaScript.</p>
+<p>To call/invoke these from Java script one method is to
 use node-api-dotnet npm package which enables interoperability between
 .NET and JavaScript in the same process.</p>
 <p>See <a href="https://github.com/microsoft/node-api-dotnet">GitHub - microsoft/node-api-dotnet: Advanced interoperability between
@@ -111,6 +126,9 @@ demonstrates the steps to:</p>
 </li>
 <li><p>Test Toughcloud file encrypt-upload, download-decrypt, file status and file delete<br>
 functionality.</p>
+</li>
+<li><p>Each file/user has an associated set of encryption and signature keys which are enrolled
+with Toughbox for recovery.</p>
 </li>
 <li><p>Simulate Toughcloud recovery by first encrypt-uploading a file, then deleting the<br>
 local user keys, followed by a key recovery and  subsequent download-decrypt of the<br>

@@ -34,7 +34,7 @@
               </button>
 
               <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+                <img id="logo" class="svg" src="../images/logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -98,35 +98,20 @@
 <h1 id="using-toughcloud-with-toughbox-sdk">Using Toughcloud with Toughbox SDK</h1>
 
 <p>This SDK combines Toughcloud with Toughbox creating a file storage
-solution that includes key recovery for the user's Toughcloud keys.</p>
-<p>Before a user can access Toughcloud they must first have a Toughbox
+solution that includes key recovery for the user's Toughcloud keys.
+Before a user can access Toughcloud they must first have a Toughbox
 account. The Toughbox user's account must be fully setup with their
-Recovery Agents. The Toughcloud user initialization then follows/</p>
-<p>The typical flow for Toughbox/Toughcloud for this SDK
-is as follows:</p>
-<ol>
-<li><p>Setup Toughbox user account with Recovery Agents (prerequisite).
-Refer to the Toughbox documentation for help with this.</p>
-</li>
-<li><p>Create Toughcloud User on local machine using this SDK.</p>
-</li>
-<li><p>Use response from step 2 to Activate Toughcloud Secret in Toughbox.<br>
-This effectively enrolls the Toughcloud User for Toughcloud
-services via Toughbox Management API (not in this document).</p>
-</li>
-<li><p>Prior to any Toughcloud FileUpload or FileDownload operation,
-obtain an Authorization Token from Toughbox Management API (not
-in this document)</p>
-</li>
-<li><p>Upload and Download files on local machine using this
-SDK along with the Authorization Token obtained from Tougbox.</p>
-</li>
-<li><p>If Toughcloud User keys are lost or the key password forgotten,
-keys may be recovered using the Toughcloud..Recover.. APIs in this
-SDK.</p>
-</li>
-</ol>
-<h2 id="create-user">Create User</h2>
+Recovery Agents.</p>
+<p>The Toughcloud SDK allows for two modes of file recovery:<br>
+a. Self Recovery, and
+b. Assisted Recovery</p>
+<h2 id="toughcloud-self-recovery-mode">Toughcloud Self-Recovery Mode</h2>
+<p>In this mode the Toughcloud user can upload and download any number of
+files after they have completed their one-time Toughcloud account (and
+Toughcloud file encryption keys) set up.<br>
+<em><strong>If the Toughcloud account credentials or keys are lost or destroyed,
+you must use the SDK provided Toughcloud recovery APIs to recover them.</strong></em></p>
+<h3 id="creating-a-toughcloud-user">Creating a Toughcloud User</h3>
 <p>Before a file can be uploaded and downloaded in Toughcloud, the user's
 Toughcloud account must be created on their local machine. The data
 resulting from the create method is used to enroll the user for
@@ -136,23 +121,212 @@ as part of initializing the user account must be a fixed string i.e.,
 the SDK caller should use the same string for the Toughcloud application
 throughout. Any given Toughcloud user will only ever need a single
 secret for the Toughcloud application.</p>
-<h2 id="upload-and-download-files">Upload and Download Files</h2>
+<h3 id="upload-and-download-files">Upload and Download Files</h3>
 <p>Prior to calling the API to upload or download files, an authentication
 token must be generated from the Toughbox service (details are in the
 Toughbox API documentation for the AuthorizeToughcloudAction REST API).
-This authorization token must be include in the API to upload or
-download files.</p>
+This authorization token must be included in the APIs relating to upload or
+download of stored files.</p>
 <p><img src="../images/authtoughcloud.png" alt=" authenticate "></p>
 <p>The API to upload and download files are self-explanatory and samples
 are provided for javascript.</p>
 <p>A sample workflow for upload or download is shown below</p>
 <p><img src="../images/UploadtoToughcloud.png" alt=" upload "></p>
-<h2 id="recover-toughcloud-user-keys">Recover Toughcloud User keys</h2>
-<p>If the Toughcloud user keys are lost or the password protecting the keys
-forgotten, the keys may be recovered using the Toughcloud key recovery
-APIs.</p>
-<p>A sample workflow for Toughcloud key recovery is shown below
-<img src="../images/toughcloudrecovery.png" alt=" recovery"></p>
+<h3 id="self-recovery-mode-flow">Self-Recovery Mode flow</h3>
+<p>The typical flow for Toughbox/Toughcloud in this mode is as follows:</p>
+<ol>
+<li><p>Setup Toughbox Account (prerequisite)</p>
+</li>
+<li><p>Create Toughcloud User on local machine using this SDK.</p>
+</li>
+</ol>
+<p><em><strong>For all Self-Recovery mode API calls:
+1. The [RequestData:UserAuthType] must be set to &quot;PasswordBased&quot;
+2. Any Toughbox REST API or property that takes a ctyHdrValue as input must have ctyHdrValue set to an empty string.</strong></em></p>
+<ol start="3">
+<li><p>Enroll Toughcloud User for Toughcloud services via Toughbox<br>
+Management API (not in this document). Enroll the Toughcloud<br>
+User keys for recovery in Toughbox.</p>
+</li>
+<li><p>Get Authorization Token from Toughbox Management API (not in this
+document) and Upload a file. Upload does not save the original user
+file name, and instead return meta-data specific to the uploaded file which
+must be provided in any subsequent download request.</p>
+</li>
+<li><p>Get Authorization Token from Toughbox Management API (not in this
+document) and use the meta-data from the upload operation to Download a
+file using this SDK.</p>
+</li>
+</ol>
+<h2 id="toughcloud-assisted-recovery-mode">Toughcloud Assisted-Recovery Mode</h2>
+<p>In this mode the user enrolls each encrypted file uploaded for recovery.
+(The one time use file encryption key is enrolled for recovery with Toughbox).
+Consequently for file download, the file encryption keys must first be
+recovered with the aid of Toughbox Recovery agents before a download
+(and decrypt).<br>
+<em><strong>In this mode each file is recovered using Toughbox key recovery methods.
+The Toughcloud SDK provided recovery APIs are not applicable here.</strong></em></p>
+<h3 id="assisted-recovery-mode-flow">Assisted-Recovery Mode flow</h3>
+<p>The typical flow for Toughbox/Toughcloud in this mode is as follows:</p>
+<ol>
+<li><p>Setup Toughbox Account (prerequisite)</p>
+</li>
+<li><p>Enroll Toughcloud User for Toughcloud services via Toughbox
+Management API (not in this document)</p>
+</li>
+</ol>
+<p><em><strong>For all Assisted-Recovery mode API calls:
+1. The [RequestData:UserAuthType] must be set to &quot;RandomSeedBased&quot;<br>
+2. Any Toughbox REST API or property that takes a ctyHdrValue as input must have ctyHdrValue set to 'vnd.lokblok.auth.toughcloud'.</strong></em></p>
+<ol start="3">
+<li><p>For each Toughcloud SDK file upload:</p>
+<ul>
+<li>Generate a one-time use random key using this SDK,</li>
+<li>Enroll the key for recovery in Toughbox,</li>
+<li>Get Authorization Token from Toughbox Management API (not in this document)</li>
+<li>Upload the file using this SDK and save the meta-data returned. Note that
+Upload does not save the original user file name, and it is the callers
+responsibility to save the returned meta-data along with the asssociated
+user file name.</li>
+</ul>
+</li>
+<li><p>To download a file previously uploaded to Toughcloud SDK:</p>
+<ul>
+<li>Recover the key used for upload (using Toughbox recovery agents)</li>
+<li>Get an authorization Token from Toughbox Management API (not in this document)</li>
+<li>Download the file using this SDK. You will need to provide the associated meta-data
+returned and saved from the upload operation.</li>
+</ul>
+</li>
+</ol>
+<h3 id="upload-and-download-files-1">Upload and Download Files</h3>
+<p>Prior to calling the API to upload or download files, an authentication
+token must be generated from the Toughbox service (details are in the
+Toughbox API documentation for the AuthorizeToughcloudAction REST API).
+This authorization token must be included in the APIs relating to upload or
+download of stored files.</p>
+<p><img src="../images/authtoughcloud.png" alt=" authenticate "></p>
+<p>The API to upload and download files are self-explanatory and samples
+are provided for javascript.</p>
+<p>A sample workflow for upload or download is shown below</p>
+<p><img src="../images/UploadtoToughcloud.png" alt=" upload "></p>
+<h2 id="sample-code">Sample Code</h2>
+<p>Download the SDK content from the <a href="https://github.com/lokblokinc/toughcloudsdk">Toughcloud SDK repository</a></p>
+<pre><code>git clone https://github.com/lokblokinc/toughcloudsdk.git
+cd toughcloudsdk/SampleCode/NodeJs-dotnet  (for Windows and MacOs x64 only) OR
+cd toughcloudsdk/SampleCode/NodeJs-ffi (for Windows, MacOs arm64 and x64)
+
+</code></pre>
+<h3 id="build-and-test">Build and Test</h3>
+<h4 id="windows-macos">Windows, MacOs</h4>
+<ol>
+<li><p>Download and Install the <a href="https://dotnet.microsoft.com/en-us/download">Dotnet runtime v6</a></p>
+</li>
+<li><p>Install <a href="https://nodejs.org/en/download">Nodejs</a></p>
+</li>
+<li><p>[Optional} Visual Studio Community Edition with Nodejs workload feature,<br>
+which can load the ToughCloudTestApp.sln provided in the SDK.</p>
+</li>
+</ol>
+<h4 id="set-up-before-build-select-an-option">Set up before build (Select an option)</h4>
+<h5 id="option-1-windows-macos-x64-only-using-dotnet-only-binaries">Option 1: Windows, MacOs (x64 only) using DotNet only binaries</h5>
+<pre><code>cd toughcloudsdk/SampleCode/NodeJs-dotnet 
+</code></pre>
+<h5 id="option-2-windows-macos-arm64-and-x64-using-ffi-loader-and-native-binaries-that-work-alongside-dotnet">Option 2: Windows, MacOs (arm64 and x64) using ffi loader and native binaries that work alongside Dotnet</h5>
+<pre><code>cd toughcloudsdk/SampleCode/NodeJs-ffi 
+</code></pre>
+<div class="note" style="background-color: #f7f7f7; border-radius: 5px; padding: 10px;">
+    <p><strong>Note:</strong> It is important for Node-ffi users to note that this version allocated heap memory
+within the ToughcloudClient and ToughboxClient Native dynamic libraries. This memory
+must be freed using the the ExplicitFree method for [Disposable types](https://koffi.dev/pointers#pointer-to-primitive-types).
+See TcfreeFn and TtbFreeFunctionCb functions in the xxnative.js files for sample usage.
+Failing to free memory will result in application memory leaks.</p>
+</div>
+<h4 id="build-the-app">Build the app</h4>
+<p>Set up project dependencies</p>
+<pre><code>npm install
+</code></pre>
+<h4 id="edit-configuration-parameters">Edit configuration parameters</h4>
+<p>Edit configparams.js and replace all constant strings starting with &quot;Insert your ...&quot;<br>
+with your setting values.</p>
+<pre><code>...
+// Admin credentials allowed to create enroll etc. in Toughbox service
+var org = &quot;Insert your organization name here&quot;;
+var tbAdminUser = &quot;Insert your admin user name here&quot;;
+var tbAdminPassword = 'Insert your toughbox admin password here';
+...
+</code></pre>
+<pre><code>...
+// Insert Jwt Signer trusted by Toughbox
+export const allowedJwtSigner = &quot;Insert your trusted signed name here&quot;;
+...
+</code></pre>
+<h4 id="typical-options-to-set-for-first-run">Typical Options to set for first run</h4>
+<p>Set runuserinit = true, enrolltoughcloud = true, runfunctests = true and runrecovery = false</p>
+<pre><code>...
+
+// Runuserinit will create and set up toughbox users, agents and assign agents to user
+export const runuserinit = true;
+
+// enrolltoughcloud will initialize toughcloud client and enroll toughcloud secret in toughbox
+export const enrolltoughcloud = true;
+
+// runfunctests will run toughcloud upload/download tests
+export const runfunctests = true;
+
+// runrecovery will upload a file to toughcloud with existing toughcloud keys - then
+// reinitialize toughcloud (to force key loss) then recover the toughcloud key, then
+// download/decrypt previously  encrypted/uploaded file.
+export const runrecovery = false;
+
+...
+</code></pre>
+<h4 id="helper-functions-that-set-up-the-options-above-for-various-tests">Helper functions that set up the options above for various tests</h4>
+<pre><code>...
+
+ToughcloudConfig.testFuncsWithUserInit()
+ToughcloudConfig.testFuncsWithoutUserInit()
+ToughcloudConfig.testRecovery()
+
+...
+</code></pre>
+<h5 id="run-the-app-to-set-up-test-entities-and-test-toughcloud-functionality">Run the app to set up test entities and test Toughcloud functionality.</h5>
+<pre><code>node app.js
+</code></pre>
+<p>The test runs in a loop with options for Self-Recovery and Assisted-Recovery.</p>
+<p>For a first time use select &quot;With User Init&quot; option.<br>
+For subsequent runs select the &quot;Without User Init&quot; option.<br>
+Recovery option is available only for Self-Recovery tests.<br>
+Assisted-Recovery mode must recover the dynamic (one-time) keys using the
+usual Toughbox recovery APIs (not documented in this SDK).</p>
+<h5 id="self-recovery-toughcloud-recovery-test">Self-Recovery toughcloud recovery test</h5>
+<p>Toughcloud recovery test typical settings.<br>
+Set runuserinit = false, enrolltoughcloud = false, runfunctests = false and runrecovery = true</p>
+<p>This test will:</p>
+<ul>
+<li>upload a test file encrypted with user keys.</li>
+<li>delete/overwrite the existing keys</li>
+<li>recover the keys using Toughbox services</li>
+<li>download/decrypt the test file with recovered key.</li>
+</ul>
+<pre><code>...
+
+// Runuserinit will create and set up toughbox users, agents and assign agents to user
+const runuserinit = false;
+
+// enrolltoughcloud will initialize toughcloud client and enroll toughcloud secret in toughbox
+const enrolltoughcloud = false;
+
+// runfunctests will run toughcloud upload/download tests
+const runfunctests = false;
+
+// runrecovery will upload a file to toughcloud with existing toughcloud keys - then
+// reinitialize toughcloud (to force key loss) then recover the toughcloud key, then
+// download/decrypt previously  encrypted/uploaded file.
+const runrecovery = true;
+
+...
+</code></pre>
 </article>
           </div>
 

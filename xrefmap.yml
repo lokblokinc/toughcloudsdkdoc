@@ -13,25 +13,6 @@ references:
   commentId: T:Lokblok.Toughcloud.ApiException
   fullName: Lokblok.Toughcloud.ApiException
   nameWithType: ApiException
-- uid: Lokblok.Toughcloud.ApiException.#ctor(System.String,System.Int32,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.Exception)
-  name: ApiException(string, int, string, IReadOnlyDictionary<string, IEnumerable<string>>, Exception)
-  href: api/Lokblok.Toughcloud.ApiException.html#Lokblok_Toughcloud_ApiException__ctor_System_String_System_Int32_System_String_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Collections_Generic_IEnumerable_System_String___System_Exception_
-  commentId: M:Lokblok.Toughcloud.ApiException.#ctor(System.String,System.Int32,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.Exception)
-  name.vb: New(String, Integer, String, IReadOnlyDictionary(Of String, IEnumerable(Of String)), Exception)
-  fullName: Lokblok.Toughcloud.ApiException.ApiException(string, int, string, System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IEnumerable<string>>, System.Exception)
-  fullName.vb: Lokblok.Toughcloud.ApiException.New(String, Integer, String, System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IEnumerable(Of String)), System.Exception)
-  nameWithType: ApiException.ApiException(string, int, string, IReadOnlyDictionary<string, IEnumerable<string>>, Exception)
-  nameWithType.vb: ApiException.New(String, Integer, String, IReadOnlyDictionary(Of String, IEnumerable(Of String)), Exception)
-- uid: Lokblok.Toughcloud.ApiException.#ctor*
-  name: ApiException
-  href: api/Lokblok.Toughcloud.ApiException.html#Lokblok_Toughcloud_ApiException__ctor_
-  commentId: Overload:Lokblok.Toughcloud.ApiException.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Lokblok.Toughcloud.ApiException.ApiException
-  fullName.vb: Lokblok.Toughcloud.ApiException.New
-  nameWithType: ApiException.ApiException
-  nameWithType.vb: ApiException.New
 - uid: Lokblok.Toughcloud.ApiException.Headers
   name: Headers
   href: api/Lokblok.Toughcloud.ApiException.html#Lokblok_Toughcloud_ApiException_Headers
@@ -71,19 +52,6 @@ references:
   isSpec: "True"
   fullName: Lokblok.Toughcloud.ApiException.StatusCode
   nameWithType: ApiException.StatusCode
-- uid: Lokblok.Toughcloud.ApiException.ToString
-  name: ToString()
-  href: api/Lokblok.Toughcloud.ApiException.html#Lokblok_Toughcloud_ApiException_ToString
-  commentId: M:Lokblok.Toughcloud.ApiException.ToString
-  fullName: Lokblok.Toughcloud.ApiException.ToString()
-  nameWithType: ApiException.ToString()
-- uid: Lokblok.Toughcloud.ApiException.ToString*
-  name: ToString
-  href: api/Lokblok.Toughcloud.ApiException.html#Lokblok_Toughcloud_ApiException_ToString_
-  commentId: Overload:Lokblok.Toughcloud.ApiException.ToString
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ApiException.ToString
-  nameWithType: ApiException.ToString
 - uid: Lokblok.Toughcloud.ApiException`1
   name: ApiException<TResult>
   href: api/Lokblok.Toughcloud.ApiException-1.html
@@ -93,25 +61,6 @@ references:
   fullName.vb: Lokblok.Toughcloud.ApiException(Of TResult)
   nameWithType: ApiException<TResult>
   nameWithType.vb: ApiException(Of TResult)
-- uid: Lokblok.Toughcloud.ApiException`1.#ctor(System.String,System.Int32,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},`0,System.Exception)
-  name: ApiException(string, int, string, IReadOnlyDictionary<string, IEnumerable<string>>, TResult, Exception)
-  href: api/Lokblok.Toughcloud.ApiException-1.html#Lokblok_Toughcloud_ApiException_1__ctor_System_String_System_Int32_System_String_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Collections_Generic_IEnumerable_System_String____0_System_Exception_
-  commentId: M:Lokblok.Toughcloud.ApiException`1.#ctor(System.String,System.Int32,System.String,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},`0,System.Exception)
-  name.vb: New(String, Integer, String, IReadOnlyDictionary(Of String, IEnumerable(Of String)), TResult, Exception)
-  fullName: Lokblok.Toughcloud.ApiException<TResult>.ApiException(string, int, string, System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IEnumerable<string>>, TResult, System.Exception)
-  fullName.vb: Lokblok.Toughcloud.ApiException(Of TResult).New(String, Integer, String, System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IEnumerable(Of String)), TResult, System.Exception)
-  nameWithType: ApiException<TResult>.ApiException(string, int, string, IReadOnlyDictionary<string, IEnumerable<string>>, TResult, Exception)
-  nameWithType.vb: ApiException(Of TResult).New(String, Integer, String, IReadOnlyDictionary(Of String, IEnumerable(Of String)), TResult, Exception)
-- uid: Lokblok.Toughcloud.ApiException`1.#ctor*
-  name: ApiException
-  href: api/Lokblok.Toughcloud.ApiException-1.html#Lokblok_Toughcloud_ApiException_1__ctor_
-  commentId: Overload:Lokblok.Toughcloud.ApiException`1.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Lokblok.Toughcloud.ApiException<TResult>.ApiException
-  fullName.vb: Lokblok.Toughcloud.ApiException(Of TResult).New
-  nameWithType: ApiException<TResult>.ApiException
-  nameWithType.vb: ApiException(Of TResult).New
 - uid: Lokblok.Toughcloud.ApiException`1.Result
   name: Result
   href: api/Lokblok.Toughcloud.ApiException-1.html#Lokblok_Toughcloud_ApiException_1_Result
@@ -238,43 +187,6 @@ references:
   commentId: T:Lokblok.Toughcloud.FileParameter
   fullName: Lokblok.Toughcloud.FileParameter
   nameWithType: FileParameter
-- uid: Lokblok.Toughcloud.FileParameter.#ctor(System.IO.Stream)
-  name: FileParameter(Stream)
-  href: api/Lokblok.Toughcloud.FileParameter.html#Lokblok_Toughcloud_FileParameter__ctor_System_IO_Stream_
-  commentId: M:Lokblok.Toughcloud.FileParameter.#ctor(System.IO.Stream)
-  name.vb: New(Stream)
-  fullName: Lokblok.Toughcloud.FileParameter.FileParameter(System.IO.Stream)
-  fullName.vb: Lokblok.Toughcloud.FileParameter.New(System.IO.Stream)
-  nameWithType: FileParameter.FileParameter(Stream)
-  nameWithType.vb: FileParameter.New(Stream)
-- uid: Lokblok.Toughcloud.FileParameter.#ctor(System.IO.Stream,System.String)
-  name: FileParameter(Stream, string)
-  href: api/Lokblok.Toughcloud.FileParameter.html#Lokblok_Toughcloud_FileParameter__ctor_System_IO_Stream_System_String_
-  commentId: M:Lokblok.Toughcloud.FileParameter.#ctor(System.IO.Stream,System.String)
-  name.vb: New(Stream, String)
-  fullName: Lokblok.Toughcloud.FileParameter.FileParameter(System.IO.Stream, string)
-  fullName.vb: Lokblok.Toughcloud.FileParameter.New(System.IO.Stream, String)
-  nameWithType: FileParameter.FileParameter(Stream, string)
-  nameWithType.vb: FileParameter.New(Stream, String)
-- uid: Lokblok.Toughcloud.FileParameter.#ctor(System.IO.Stream,System.String,System.String)
-  name: FileParameter(Stream, string, string)
-  href: api/Lokblok.Toughcloud.FileParameter.html#Lokblok_Toughcloud_FileParameter__ctor_System_IO_Stream_System_String_System_String_
-  commentId: M:Lokblok.Toughcloud.FileParameter.#ctor(System.IO.Stream,System.String,System.String)
-  name.vb: New(Stream, String, String)
-  fullName: Lokblok.Toughcloud.FileParameter.FileParameter(System.IO.Stream, string, string)
-  fullName.vb: Lokblok.Toughcloud.FileParameter.New(System.IO.Stream, String, String)
-  nameWithType: FileParameter.FileParameter(Stream, string, string)
-  nameWithType.vb: FileParameter.New(Stream, String, String)
-- uid: Lokblok.Toughcloud.FileParameter.#ctor*
-  name: FileParameter
-  href: api/Lokblok.Toughcloud.FileParameter.html#Lokblok_Toughcloud_FileParameter__ctor_
-  commentId: Overload:Lokblok.Toughcloud.FileParameter.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Lokblok.Toughcloud.FileParameter.FileParameter
-  fullName.vb: Lokblok.Toughcloud.FileParameter.New
-  nameWithType: FileParameter.FileParameter
-  nameWithType.vb: FileParameter.New
 - uid: Lokblok.Toughcloud.FileParameter.ContentType
   name: ContentType
   href: api/Lokblok.Toughcloud.FileParameter.html#Lokblok_Toughcloud_FileParameter_ContentType
@@ -320,38 +232,6 @@ references:
   commentId: T:Lokblok.Toughcloud.FileResponse
   fullName: Lokblok.Toughcloud.FileResponse
   nameWithType: FileResponse
-- uid: Lokblok.Toughcloud.FileResponse.#ctor(System.Int32,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.IO.Stream,System.IDisposable,System.IDisposable)
-  name: FileResponse(int, IReadOnlyDictionary<string, IEnumerable<string>>, Stream, IDisposable, IDisposable)
-  href: api/Lokblok.Toughcloud.FileResponse.html#Lokblok_Toughcloud_FileResponse__ctor_System_Int32_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Collections_Generic_IEnumerable_System_String___System_IO_Stream_System_IDisposable_System_IDisposable_
-  commentId: M:Lokblok.Toughcloud.FileResponse.#ctor(System.Int32,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.IO.Stream,System.IDisposable,System.IDisposable)
-  name.vb: New(Integer, IReadOnlyDictionary(Of String, IEnumerable(Of String)), Stream, IDisposable, IDisposable)
-  fullName: Lokblok.Toughcloud.FileResponse.FileResponse(int, System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IEnumerable<string>>, System.IO.Stream, System.IDisposable, System.IDisposable)
-  fullName.vb: Lokblok.Toughcloud.FileResponse.New(Integer, System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IEnumerable(Of String)), System.IO.Stream, System.IDisposable, System.IDisposable)
-  nameWithType: FileResponse.FileResponse(int, IReadOnlyDictionary<string, IEnumerable<string>>, Stream, IDisposable, IDisposable)
-  nameWithType.vb: FileResponse.New(Integer, IReadOnlyDictionary(Of String, IEnumerable(Of String)), Stream, IDisposable, IDisposable)
-- uid: Lokblok.Toughcloud.FileResponse.#ctor*
-  name: FileResponse
-  href: api/Lokblok.Toughcloud.FileResponse.html#Lokblok_Toughcloud_FileResponse__ctor_
-  commentId: Overload:Lokblok.Toughcloud.FileResponse.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Lokblok.Toughcloud.FileResponse.FileResponse
-  fullName.vb: Lokblok.Toughcloud.FileResponse.New
-  nameWithType: FileResponse.FileResponse
-  nameWithType.vb: FileResponse.New
-- uid: Lokblok.Toughcloud.FileResponse.Dispose
-  name: Dispose()
-  href: api/Lokblok.Toughcloud.FileResponse.html#Lokblok_Toughcloud_FileResponse_Dispose
-  commentId: M:Lokblok.Toughcloud.FileResponse.Dispose
-  fullName: Lokblok.Toughcloud.FileResponse.Dispose()
-  nameWithType: FileResponse.Dispose()
-- uid: Lokblok.Toughcloud.FileResponse.Dispose*
-  name: Dispose
-  href: api/Lokblok.Toughcloud.FileResponse.html#Lokblok_Toughcloud_FileResponse_Dispose_
-  commentId: Overload:Lokblok.Toughcloud.FileResponse.Dispose
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.FileResponse.Dispose
-  nameWithType: FileResponse.Dispose
 - uid: Lokblok.Toughcloud.FileResponse.Headers
   name: Headers
   href: api/Lokblok.Toughcloud.FileResponse.html#Lokblok_Toughcloud_FileResponse_Headers
@@ -590,25 +470,6 @@ references:
   commentId: T:Lokblok.Toughcloud.ToughcloudClient
   fullName: Lokblok.Toughcloud.ToughcloudClient
   nameWithType: ToughcloudClient
-- uid: Lokblok.Toughcloud.ToughcloudClient.#ctor(System.String,System.Net.Http.HttpClient)
-  name: ToughcloudClient(string, HttpClient)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient__ctor_System_String_System_Net_Http_HttpClient_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.#ctor(System.String,System.Net.Http.HttpClient)
-  name.vb: New(String, HttpClient)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.ToughcloudClient(string, System.Net.Http.HttpClient)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.New(String, System.Net.Http.HttpClient)
-  nameWithType: ToughcloudClient.ToughcloudClient(string, HttpClient)
-  nameWithType.vb: ToughcloudClient.New(String, HttpClient)
-- uid: Lokblok.Toughcloud.ToughcloudClient.#ctor*
-  name: ToughcloudClient
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient__ctor_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Lokblok.Toughcloud.ToughcloudClient.ToughcloudClient
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.New
-  nameWithType: ToughcloudClient.ToughcloudClient
-  nameWithType.vb: ToughcloudClient.New
 - uid: Lokblok.Toughcloud.ToughcloudClient.BaseUrl
   name: BaseUrl
   href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_BaseUrl
@@ -622,113 +483,6 @@ references:
   isSpec: "True"
   fullName: Lokblok.Toughcloud.ToughcloudClient.BaseUrl
   nameWithType: ToughcloudClient.BaseUrl
-- uid: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
-  name: DeleteAsync(string, string, string, string, string, string, string)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_DeleteAsync_System_String_System_String_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
-  name.vb: DeleteAsync(String, String, String, String, String, String, String)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(string, string, string, string, string, string, string)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(String, String, String, String, String, String, String)
-  nameWithType: ToughcloudClient.DeleteAsync(string, string, string, string, string, string, string)
-  nameWithType.vb: ToughcloudClient.DeleteAsync(String, String, String, String, String, String, String)
-- uid: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
-  name: DeleteAsync(string, string, string, string, string, string, string, CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_DeleteAsync_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
-  name.vb: DeleteAsync(String, String, String, String, String, String, String, CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(string, string, string, string, string, string, string, System.Threading.CancellationToken)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync(String, String, String, String, String, String, String, System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.DeleteAsync(string, string, string, string, string, string, string, CancellationToken)
-  nameWithType.vb: ToughcloudClient.DeleteAsync(String, String, String, String, String, String, String, CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync*
-  name: DeleteAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_DeleteAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.DeleteAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.DeleteAsync
-  nameWithType: ToughcloudClient.DeleteAsync
-- uid: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
-  name: DownloadAsync(string, string, string, string, string, string, string)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_DownloadAsync_System_String_System_String_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)
-  name.vb: DownloadAsync(String, String, String, String, String, String, String)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(string, string, string, string, string, string, string)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(String, String, String, String, String, String, String)
-  nameWithType: ToughcloudClient.DownloadAsync(string, string, string, string, string, string, string)
-  nameWithType.vb: ToughcloudClient.DownloadAsync(String, String, String, String, String, String, String)
-- uid: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
-  name: DownloadAsync(string, string, string, string, string, string, string, CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_DownloadAsync_System_String_System_String_System_String_System_String_System_String_System_String_System_String_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
-  name.vb: DownloadAsync(String, String, String, String, String, String, String, CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(string, string, string, string, string, string, string, System.Threading.CancellationToken)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync(String, String, String, String, String, String, String, System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.DownloadAsync(string, string, string, string, string, string, string, CancellationToken)
-  nameWithType.vb: ToughcloudClient.DownloadAsync(String, String, String, String, String, String, String, CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync*
-  name: DownloadAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_DownloadAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.DownloadAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.DownloadAsync
-  nameWithType: ToughcloudClient.DownloadAsync
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync
-  name: GetdeleteoptionsAsync()
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetdeleteoptionsAsync
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync()
-  nameWithType: ToughcloudClient.GetdeleteoptionsAsync()
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync(System.Threading.CancellationToken)
-  name: GetdeleteoptionsAsync(CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetdeleteoptionsAsync_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync(System.Threading.CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync(System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.GetdeleteoptionsAsync(CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync*
-  name: GetdeleteoptionsAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetdeleteoptionsAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetdeleteoptionsAsync
-  nameWithType: ToughcloudClient.GetdeleteoptionsAsync
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync
-  name: GetfileupdownoptionsAsync()
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetfileupdownoptionsAsync
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync()
-  nameWithType: ToughcloudClient.GetfileupdownoptionsAsync()
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync(System.Threading.CancellationToken)
-  name: GetfileupdownoptionsAsync(CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetfileupdownoptionsAsync_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync(System.Threading.CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync(System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.GetfileupdownoptionsAsync(CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync*
-  name: GetfileupdownoptionsAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetfileupdownoptionsAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetfileupdownoptionsAsync
-  nameWithType: ToughcloudClient.GetfileupdownoptionsAsync
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync
-  name: GetstatusoptionsAsync()
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetstatusoptionsAsync
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync()
-  nameWithType: ToughcloudClient.GetstatusoptionsAsync()
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync(System.Threading.CancellationToken)
-  name: GetstatusoptionsAsync(CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetstatusoptionsAsync_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync(System.Threading.CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync(System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.GetstatusoptionsAsync(CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync*
-  name: GetstatusoptionsAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_GetstatusoptionsAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.GetstatusoptionsAsync
-  nameWithType: ToughcloudClient.GetstatusoptionsAsync
 - uid: Lokblok.Toughcloud.ToughcloudClient.JsonSerializerSettings
   name: JsonSerializerSettings
   href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_JsonSerializerSettings
@@ -751,25 +505,6 @@ references:
   fullName.vb: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult(Of T)
   nameWithType: ToughcloudClient.ObjectResponseResult<T>
   nameWithType.vb: ToughcloudClient.ObjectResponseResult(Of T)
-- uid: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult`1.#ctor(`0,System.String)
-  name: ObjectResponseResult(T, string)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult-1.html#Lokblok_Toughcloud_ToughcloudClient_ObjectResponseResult_1__ctor__0_System_String_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult`1.#ctor(`0,System.String)
-  name.vb: New(T, String)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult<T>.ObjectResponseResult(T, string)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult(Of T).New(T, String)
-  nameWithType: ToughcloudClient.ObjectResponseResult<T>.ObjectResponseResult(T, string)
-  nameWithType.vb: ToughcloudClient.ObjectResponseResult(Of T).New(T, String)
-- uid: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult`1.#ctor*
-  name: ObjectResponseResult
-  href: api/Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult-1.html#Lokblok_Toughcloud_ToughcloudClient_ObjectResponseResult_1__ctor_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult`1.#ctor
-  isSpec: "True"
-  name.vb: New
-  fullName: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult<T>.ObjectResponseResult
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult(Of T).New
-  nameWithType: ToughcloudClient.ObjectResponseResult<T>.ObjectResponseResult
-  nameWithType.vb: ToughcloudClient.ObjectResponseResult(Of T).New
 - uid: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult`1.Object
   name: Object
   href: api/Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult-1.html#Lokblok_Toughcloud_ToughcloudClient_ObjectResponseResult_1_Object
@@ -804,22 +539,6 @@ references:
   fullName.vb: Lokblok.Toughcloud.ToughcloudClient.ObjectResponseResult(Of T).Text
   nameWithType: ToughcloudClient.ObjectResponseResult<T>.Text
   nameWithType.vb: ToughcloudClient.ObjectResponseResult(Of T).Text
-- uid: Lokblok.Toughcloud.ToughcloudClient.ReadObjectResponseAsync*
-  name: ReadObjectResponseAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_ReadObjectResponseAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.ReadObjectResponseAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.ReadObjectResponseAsync
-  nameWithType: ToughcloudClient.ReadObjectResponseAsync
-- uid: Lokblok.Toughcloud.ToughcloudClient.ReadObjectResponseAsync``1(System.Net.Http.HttpResponseMessage,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.Threading.CancellationToken)
-  name: ReadObjectResponseAsync<T>(HttpResponseMessage, IReadOnlyDictionary<string, IEnumerable<string>>, CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_ReadObjectResponseAsync__1_System_Net_Http_HttpResponseMessage_System_Collections_Generic_IReadOnlyDictionary_System_String_System_Collections_Generic_IEnumerable_System_String___System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.ReadObjectResponseAsync``1(System.Net.Http.HttpResponseMessage,System.Collections.Generic.IReadOnlyDictionary{System.String,System.Collections.Generic.IEnumerable{System.String}},System.Threading.CancellationToken)
-  name.vb: ReadObjectResponseAsync(Of T)(HttpResponseMessage, IReadOnlyDictionary(Of String, IEnumerable(Of String)), CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.ReadObjectResponseAsync<T>(System.Net.Http.HttpResponseMessage, System.Collections.Generic.IReadOnlyDictionary<string, System.Collections.Generic.IEnumerable<string>>, System.Threading.CancellationToken)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.ReadObjectResponseAsync(Of T)(System.Net.Http.HttpResponseMessage, System.Collections.Generic.IReadOnlyDictionary(Of String, System.Collections.Generic.IEnumerable(Of String)), System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.ReadObjectResponseAsync<T>(HttpResponseMessage, IReadOnlyDictionary<string, IEnumerable<string>>, CancellationToken)
-  nameWithType.vb: ToughcloudClient.ReadObjectResponseAsync(Of T)(HttpResponseMessage, IReadOnlyDictionary(Of String, IEnumerable(Of String)), CancellationToken)
 - uid: Lokblok.Toughcloud.ToughcloudClient.ReadResponseAsString
   name: ReadResponseAsString
   href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_ReadResponseAsString
@@ -833,75 +552,6 @@ references:
   isSpec: "True"
   fullName: Lokblok.Toughcloud.ToughcloudClient.ReadResponseAsString
   nameWithType: ToughcloudClient.ReadResponseAsString
-- uid: Lokblok.Toughcloud.ToughcloudClient.StatusAsync(System.String,System.String,System.String,System.String,System.String,System.String)
-  name: StatusAsync(string, string, string, string, string, string)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_StatusAsync_System_String_System_String_System_String_System_String_System_String_System_String_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.StatusAsync(System.String,System.String,System.String,System.String,System.String,System.String)
-  name.vb: StatusAsync(String, String, String, String, String, String)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.StatusAsync(string, string, string, string, string, string)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.StatusAsync(String, String, String, String, String, String)
-  nameWithType: ToughcloudClient.StatusAsync(string, string, string, string, string, string)
-  nameWithType.vb: ToughcloudClient.StatusAsync(String, String, String, String, String, String)
-- uid: Lokblok.Toughcloud.ToughcloudClient.StatusAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
-  name: StatusAsync(string, string, string, string, string, string, CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_StatusAsync_System_String_System_String_System_String_System_String_System_String_System_String_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.StatusAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
-  name.vb: StatusAsync(String, String, String, String, String, String, CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.StatusAsync(string, string, string, string, string, string, System.Threading.CancellationToken)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.StatusAsync(String, String, String, String, String, String, System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.StatusAsync(string, string, string, string, string, string, CancellationToken)
-  nameWithType.vb: ToughcloudClient.StatusAsync(String, String, String, String, String, String, CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.StatusAsync*
-  name: StatusAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_StatusAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.StatusAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.StatusAsync
-  nameWithType: ToughcloudClient.StatusAsync
-- uid: Lokblok.Toughcloud.ToughcloudClient.UploadAsync(System.String,System.String,System.String,System.String,System.String,System.Double,System.String,Lokblok.Toughcloud.FileParameter)
-  name: UploadAsync(string, string, string, string, string, double, string, FileParameter)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_UploadAsync_System_String_System_String_System_String_System_String_System_String_System_Double_System_String_Lokblok_Toughcloud_FileParameter_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.UploadAsync(System.String,System.String,System.String,System.String,System.String,System.Double,System.String,Lokblok.Toughcloud.FileParameter)
-  name.vb: UploadAsync(String, String, String, String, String, Double, String, FileParameter)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.UploadAsync(string, string, string, string, string, double, string, Lokblok.Toughcloud.FileParameter)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.UploadAsync(String, String, String, String, String, Double, String, Lokblok.Toughcloud.FileParameter)
-  nameWithType: ToughcloudClient.UploadAsync(string, string, string, string, string, double, string, FileParameter)
-  nameWithType.vb: ToughcloudClient.UploadAsync(String, String, String, String, String, Double, String, FileParameter)
-- uid: Lokblok.Toughcloud.ToughcloudClient.UploadAsync(System.String,System.String,System.String,System.String,System.String,System.Double,System.String,Lokblok.Toughcloud.FileParameter,System.Threading.CancellationToken)
-  name: UploadAsync(string, string, string, string, string, double, string, FileParameter, CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_UploadAsync_System_String_System_String_System_String_System_String_System_String_System_Double_System_String_Lokblok_Toughcloud_FileParameter_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.UploadAsync(System.String,System.String,System.String,System.String,System.String,System.Double,System.String,Lokblok.Toughcloud.FileParameter,System.Threading.CancellationToken)
-  name.vb: UploadAsync(String, String, String, String, String, Double, String, FileParameter, CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.UploadAsync(string, string, string, string, string, double, string, Lokblok.Toughcloud.FileParameter, System.Threading.CancellationToken)
-  fullName.vb: Lokblok.Toughcloud.ToughcloudClient.UploadAsync(String, String, String, String, String, Double, String, Lokblok.Toughcloud.FileParameter, System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.UploadAsync(string, string, string, string, string, double, string, FileParameter, CancellationToken)
-  nameWithType.vb: ToughcloudClient.UploadAsync(String, String, String, String, String, Double, String, FileParameter, CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.UploadAsync*
-  name: UploadAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_UploadAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.UploadAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.UploadAsync
-  nameWithType: ToughcloudClient.UploadAsync
-- uid: Lokblok.Toughcloud.ToughcloudClient.VersionAsync
-  name: VersionAsync()
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_VersionAsync
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.VersionAsync
-  fullName: Lokblok.Toughcloud.ToughcloudClient.VersionAsync()
-  nameWithType: ToughcloudClient.VersionAsync()
-- uid: Lokblok.Toughcloud.ToughcloudClient.VersionAsync(System.Threading.CancellationToken)
-  name: VersionAsync(CancellationToken)
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_VersionAsync_System_Threading_CancellationToken_
-  commentId: M:Lokblok.Toughcloud.ToughcloudClient.VersionAsync(System.Threading.CancellationToken)
-  fullName: Lokblok.Toughcloud.ToughcloudClient.VersionAsync(System.Threading.CancellationToken)
-  nameWithType: ToughcloudClient.VersionAsync(CancellationToken)
-- uid: Lokblok.Toughcloud.ToughcloudClient.VersionAsync*
-  name: VersionAsync
-  href: api/Lokblok.Toughcloud.ToughcloudClient.html#Lokblok_Toughcloud_ToughcloudClient_VersionAsync_
-  commentId: Overload:Lokblok.Toughcloud.ToughcloudClient.VersionAsync
-  isSpec: "True"
-  fullName: Lokblok.Toughcloud.ToughcloudClient.VersionAsync
-  nameWithType: ToughcloudClient.VersionAsync
 - uid: Lokblok.Toughcloud.ToughcloudVersion
   name: ToughcloudVersion
   href: api/Lokblok.Toughcloud.ToughcloudVersion.html
@@ -966,64 +616,6 @@ references:
   commentId: N:ToughboxAPI
   fullName: ToughboxAPI
   nameWithType: ToughboxAPI
-- uid: ToughboxAPI.AgentEnrollmentRecord
-  name: AgentEnrollmentRecord
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html
-  commentId: T:ToughboxAPI.AgentEnrollmentRecord
-  fullName: ToughboxAPI.AgentEnrollmentRecord
-  nameWithType: AgentEnrollmentRecord
-- uid: ToughboxAPI.AgentEnrollmentRecord.RecoveryAgent
-  name: RecoveryAgent
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_RecoveryAgent
-  commentId: P:ToughboxAPI.AgentEnrollmentRecord.RecoveryAgent
-  fullName: ToughboxAPI.AgentEnrollmentRecord.RecoveryAgent
-  nameWithType: AgentEnrollmentRecord.RecoveryAgent
-- uid: ToughboxAPI.AgentEnrollmentRecord.RecoveryAgent*
-  name: RecoveryAgent
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_RecoveryAgent_
-  commentId: Overload:ToughboxAPI.AgentEnrollmentRecord.RecoveryAgent
-  isSpec: "True"
-  fullName: ToughboxAPI.AgentEnrollmentRecord.RecoveryAgent
-  nameWithType: AgentEnrollmentRecord.RecoveryAgent
-- uid: ToughboxAPI.AgentEnrollmentRecord.SplitID
-  name: SplitID
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_SplitID
-  commentId: P:ToughboxAPI.AgentEnrollmentRecord.SplitID
-  fullName: ToughboxAPI.AgentEnrollmentRecord.SplitID
-  nameWithType: AgentEnrollmentRecord.SplitID
-- uid: ToughboxAPI.AgentEnrollmentRecord.SplitID*
-  name: SplitID
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_SplitID_
-  commentId: Overload:ToughboxAPI.AgentEnrollmentRecord.SplitID
-  isSpec: "True"
-  fullName: ToughboxAPI.AgentEnrollmentRecord.SplitID
-  nameWithType: AgentEnrollmentRecord.SplitID
-- uid: ToughboxAPI.AgentEnrollmentRecord.ValidationData
-  name: ValidationData
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_ValidationData
-  commentId: P:ToughboxAPI.AgentEnrollmentRecord.ValidationData
-  fullName: ToughboxAPI.AgentEnrollmentRecord.ValidationData
-  nameWithType: AgentEnrollmentRecord.ValidationData
-- uid: ToughboxAPI.AgentEnrollmentRecord.ValidationData*
-  name: ValidationData
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_ValidationData_
-  commentId: Overload:ToughboxAPI.AgentEnrollmentRecord.ValidationData
-  isSpec: "True"
-  fullName: ToughboxAPI.AgentEnrollmentRecord.ValidationData
-  nameWithType: AgentEnrollmentRecord.ValidationData
-- uid: ToughboxAPI.AgentEnrollmentRecord.ValidationType
-  name: ValidationType
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_ValidationType
-  commentId: P:ToughboxAPI.AgentEnrollmentRecord.ValidationType
-  fullName: ToughboxAPI.AgentEnrollmentRecord.ValidationType
-  nameWithType: AgentEnrollmentRecord.ValidationType
-- uid: ToughboxAPI.AgentEnrollmentRecord.ValidationType*
-  name: ValidationType
-  href: api/ToughboxAPI.AgentEnrollmentRecord.html#ToughboxAPI_AgentEnrollmentRecord_ValidationType_
-  commentId: Overload:ToughboxAPI.AgentEnrollmentRecord.ValidationType
-  isSpec: "True"
-  fullName: ToughboxAPI.AgentEnrollmentRecord.ValidationType
-  nameWithType: AgentEnrollmentRecord.ValidationType
 - uid: ToughboxAPI.CompleteRecoveryRequest
   name: CompleteRecoveryRequest
   href: api/ToughboxAPI.CompleteRecoveryRequest.html
@@ -1082,129 +674,6 @@ references:
   isSpec: "True"
   fullName: ToughboxAPI.CompleteRecoveryRequest.SessionAuthType
   nameWithType: CompleteRecoveryRequest.SessionAuthType
-- uid: ToughboxAPI.EnrollmentRecord
-  name: EnrollmentRecord
-  href: api/ToughboxAPI.EnrollmentRecord.html
-  commentId: T:ToughboxAPI.EnrollmentRecord
-  fullName: ToughboxAPI.EnrollmentRecord
-  nameWithType: EnrollmentRecord
-- uid: ToughboxAPI.EnrollmentRecord.AgentEnrollmentRecords
-  name: AgentEnrollmentRecords
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_AgentEnrollmentRecords
-  commentId: P:ToughboxAPI.EnrollmentRecord.AgentEnrollmentRecords
-  fullName: ToughboxAPI.EnrollmentRecord.AgentEnrollmentRecords
-  nameWithType: EnrollmentRecord.AgentEnrollmentRecords
-- uid: ToughboxAPI.EnrollmentRecord.AgentEnrollmentRecords*
-  name: AgentEnrollmentRecords
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_AgentEnrollmentRecords_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.AgentEnrollmentRecords
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.AgentEnrollmentRecords
-  nameWithType: EnrollmentRecord.AgentEnrollmentRecords
-- uid: ToughboxAPI.EnrollmentRecord.EnrollPublicKey
-  name: EnrollPublicKey
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_EnrollPublicKey
-  commentId: P:ToughboxAPI.EnrollmentRecord.EnrollPublicKey
-  fullName: ToughboxAPI.EnrollmentRecord.EnrollPublicKey
-  nameWithType: EnrollmentRecord.EnrollPublicKey
-- uid: ToughboxAPI.EnrollmentRecord.EnrollPublicKey*
-  name: EnrollPublicKey
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_EnrollPublicKey_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.EnrollPublicKey
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.EnrollPublicKey
-  nameWithType: EnrollmentRecord.EnrollPublicKey
-- uid: ToughboxAPI.EnrollmentRecord.Groupname
-  name: Groupname
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Groupname
-  commentId: P:ToughboxAPI.EnrollmentRecord.Groupname
-  fullName: ToughboxAPI.EnrollmentRecord.Groupname
-  nameWithType: EnrollmentRecord.Groupname
-- uid: ToughboxAPI.EnrollmentRecord.Groupname*
-  name: Groupname
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Groupname_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.Groupname
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.Groupname
-  nameWithType: EnrollmentRecord.Groupname
-- uid: ToughboxAPI.EnrollmentRecord.Organization
-  name: Organization
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Organization
-  commentId: P:ToughboxAPI.EnrollmentRecord.Organization
-  fullName: ToughboxAPI.EnrollmentRecord.Organization
-  nameWithType: EnrollmentRecord.Organization
-- uid: ToughboxAPI.EnrollmentRecord.Organization*
-  name: Organization
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Organization_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.Organization
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.Organization
-  nameWithType: EnrollmentRecord.Organization
-- uid: ToughboxAPI.EnrollmentRecord.SecretID
-  name: SecretID
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_SecretID
-  commentId: P:ToughboxAPI.EnrollmentRecord.SecretID
-  fullName: ToughboxAPI.EnrollmentRecord.SecretID
-  nameWithType: EnrollmentRecord.SecretID
-- uid: ToughboxAPI.EnrollmentRecord.SecretID*
-  name: SecretID
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_SecretID_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.SecretID
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.SecretID
-  nameWithType: EnrollmentRecord.SecretID
-- uid: ToughboxAPI.EnrollmentRecord.SecretName
-  name: SecretName
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_SecretName
-  commentId: P:ToughboxAPI.EnrollmentRecord.SecretName
-  fullName: ToughboxAPI.EnrollmentRecord.SecretName
-  nameWithType: EnrollmentRecord.SecretName
-- uid: ToughboxAPI.EnrollmentRecord.SecretName*
-  name: SecretName
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_SecretName_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.SecretName
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.SecretName
-  nameWithType: EnrollmentRecord.SecretName
-- uid: ToughboxAPI.EnrollmentRecord.SecretType
-  name: SecretType
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_SecretType
-  commentId: P:ToughboxAPI.EnrollmentRecord.SecretType
-  fullName: ToughboxAPI.EnrollmentRecord.SecretType
-  nameWithType: EnrollmentRecord.SecretType
-- uid: ToughboxAPI.EnrollmentRecord.SecretType*
-  name: SecretType
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_SecretType_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.SecretType
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.SecretType
-  nameWithType: EnrollmentRecord.SecretType
-- uid: ToughboxAPI.EnrollmentRecord.Threshold
-  name: Threshold
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Threshold
-  commentId: P:ToughboxAPI.EnrollmentRecord.Threshold
-  fullName: ToughboxAPI.EnrollmentRecord.Threshold
-  nameWithType: EnrollmentRecord.Threshold
-- uid: ToughboxAPI.EnrollmentRecord.Threshold*
-  name: Threshold
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Threshold_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.Threshold
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.Threshold
-  nameWithType: EnrollmentRecord.Threshold
-- uid: ToughboxAPI.EnrollmentRecord.Username
-  name: Username
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Username
-  commentId: P:ToughboxAPI.EnrollmentRecord.Username
-  fullName: ToughboxAPI.EnrollmentRecord.Username
-  nameWithType: EnrollmentRecord.Username
-- uid: ToughboxAPI.EnrollmentRecord.Username*
-  name: Username
-  href: api/ToughboxAPI.EnrollmentRecord.html#ToughboxAPI_EnrollmentRecord_Username_
-  commentId: Overload:ToughboxAPI.EnrollmentRecord.Username
-  isSpec: "True"
-  fullName: ToughboxAPI.EnrollmentRecord.Username
-  nameWithType: EnrollmentRecord.Username
 - uid: ToughboxAPI.EnrollmentRequest
   name: EnrollmentRequest
   href: api/ToughboxAPI.EnrollmentRequest.html
@@ -1295,206 +764,103 @@ references:
   isSpec: "True"
   fullName: ToughboxAPI.PreCompleteRecoveryRequest.SessionID
   nameWithType: PreCompleteRecoveryRequest.SessionID
-- uid: ToughboxAPI.RaRecord
-  name: RaRecord
-  href: api/ToughboxAPI.RaRecord.html
-  commentId: T:ToughboxAPI.RaRecord
-  fullName: ToughboxAPI.RaRecord
-  nameWithType: RaRecord
-- uid: ToughboxAPI.RaRecord.AgentCredential
+- uid: ToughboxAPI.RaRecordX
+  name: RaRecordX
+  href: api/ToughboxAPI.RaRecordX.html
+  commentId: T:ToughboxAPI.RaRecordX
+  fullName: ToughboxAPI.RaRecordX
+  nameWithType: RaRecordX
+- uid: ToughboxAPI.RaRecordX.AgentCredential
   name: AgentCredential
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_AgentCredential
-  commentId: P:ToughboxAPI.RaRecord.AgentCredential
-  fullName: ToughboxAPI.RaRecord.AgentCredential
-  nameWithType: RaRecord.AgentCredential
-- uid: ToughboxAPI.RaRecord.AgentCredential*
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_AgentCredential
+  commentId: P:ToughboxAPI.RaRecordX.AgentCredential
+  fullName: ToughboxAPI.RaRecordX.AgentCredential
+  nameWithType: RaRecordX.AgentCredential
+- uid: ToughboxAPI.RaRecordX.AgentCredential*
   name: AgentCredential
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_AgentCredential_
-  commentId: Overload:ToughboxAPI.RaRecord.AgentCredential
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_AgentCredential_
+  commentId: Overload:ToughboxAPI.RaRecordX.AgentCredential
   isSpec: "True"
-  fullName: ToughboxAPI.RaRecord.AgentCredential
-  nameWithType: RaRecord.AgentCredential
-- uid: ToughboxAPI.RaRecord.AgentCredentialType
+  fullName: ToughboxAPI.RaRecordX.AgentCredential
+  nameWithType: RaRecordX.AgentCredential
+- uid: ToughboxAPI.RaRecordX.AgentCredentialType
   name: AgentCredentialType
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_AgentCredentialType
-  commentId: P:ToughboxAPI.RaRecord.AgentCredentialType
-  fullName: ToughboxAPI.RaRecord.AgentCredentialType
-  nameWithType: RaRecord.AgentCredentialType
-- uid: ToughboxAPI.RaRecord.AgentCredentialType*
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_AgentCredentialType
+  commentId: P:ToughboxAPI.RaRecordX.AgentCredentialType
+  fullName: ToughboxAPI.RaRecordX.AgentCredentialType
+  nameWithType: RaRecordX.AgentCredentialType
+- uid: ToughboxAPI.RaRecordX.AgentCredentialType*
   name: AgentCredentialType
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_AgentCredentialType_
-  commentId: Overload:ToughboxAPI.RaRecord.AgentCredentialType
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_AgentCredentialType_
+  commentId: Overload:ToughboxAPI.RaRecordX.AgentCredentialType
   isSpec: "True"
-  fullName: ToughboxAPI.RaRecord.AgentCredentialType
-  nameWithType: RaRecord.AgentCredentialType
-- uid: ToughboxAPI.RaRecord.Algorithm
+  fullName: ToughboxAPI.RaRecordX.AgentCredentialType
+  nameWithType: RaRecordX.AgentCredentialType
+- uid: ToughboxAPI.RaRecordX.Algorithm
   name: Algorithm
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Algorithm
-  commentId: P:ToughboxAPI.RaRecord.Algorithm
-  fullName: ToughboxAPI.RaRecord.Algorithm
-  nameWithType: RaRecord.Algorithm
-- uid: ToughboxAPI.RaRecord.Algorithm*
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Algorithm
+  commentId: P:ToughboxAPI.RaRecordX.Algorithm
+  fullName: ToughboxAPI.RaRecordX.Algorithm
+  nameWithType: RaRecordX.Algorithm
+- uid: ToughboxAPI.RaRecordX.Algorithm*
   name: Algorithm
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Algorithm_
-  commentId: Overload:ToughboxAPI.RaRecord.Algorithm
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Algorithm_
+  commentId: Overload:ToughboxAPI.RaRecordX.Algorithm
   isSpec: "True"
-  fullName: ToughboxAPI.RaRecord.Algorithm
-  nameWithType: RaRecord.Algorithm
-- uid: ToughboxAPI.RaRecord.Groupname
+  fullName: ToughboxAPI.RaRecordX.Algorithm
+  nameWithType: RaRecordX.Algorithm
+- uid: ToughboxAPI.RaRecordX.Groupname
   name: Groupname
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Groupname
-  commentId: P:ToughboxAPI.RaRecord.Groupname
-  fullName: ToughboxAPI.RaRecord.Groupname
-  nameWithType: RaRecord.Groupname
-- uid: ToughboxAPI.RaRecord.Groupname*
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Groupname
+  commentId: P:ToughboxAPI.RaRecordX.Groupname
+  fullName: ToughboxAPI.RaRecordX.Groupname
+  nameWithType: RaRecordX.Groupname
+- uid: ToughboxAPI.RaRecordX.Groupname*
   name: Groupname
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Groupname_
-  commentId: Overload:ToughboxAPI.RaRecord.Groupname
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Groupname_
+  commentId: Overload:ToughboxAPI.RaRecordX.Groupname
   isSpec: "True"
-  fullName: ToughboxAPI.RaRecord.Groupname
-  nameWithType: RaRecord.Groupname
-- uid: ToughboxAPI.RaRecord.Organization
+  fullName: ToughboxAPI.RaRecordX.Groupname
+  nameWithType: RaRecordX.Groupname
+- uid: ToughboxAPI.RaRecordX.Organization
   name: Organization
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Organization
-  commentId: P:ToughboxAPI.RaRecord.Organization
-  fullName: ToughboxAPI.RaRecord.Organization
-  nameWithType: RaRecord.Organization
-- uid: ToughboxAPI.RaRecord.Organization*
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Organization
+  commentId: P:ToughboxAPI.RaRecordX.Organization
+  fullName: ToughboxAPI.RaRecordX.Organization
+  nameWithType: RaRecordX.Organization
+- uid: ToughboxAPI.RaRecordX.Organization*
   name: Organization
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Organization_
-  commentId: Overload:ToughboxAPI.RaRecord.Organization
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Organization_
+  commentId: Overload:ToughboxAPI.RaRecordX.Organization
   isSpec: "True"
-  fullName: ToughboxAPI.RaRecord.Organization
-  nameWithType: RaRecord.Organization
-- uid: ToughboxAPI.RaRecord.Type
+  fullName: ToughboxAPI.RaRecordX.Organization
+  nameWithType: RaRecordX.Organization
+- uid: ToughboxAPI.RaRecordX.Type
   name: Type
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Type
-  commentId: P:ToughboxAPI.RaRecord.Type
-  fullName: ToughboxAPI.RaRecord.Type
-  nameWithType: RaRecord.Type
-- uid: ToughboxAPI.RaRecord.Type*
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Type
+  commentId: P:ToughboxAPI.RaRecordX.Type
+  fullName: ToughboxAPI.RaRecordX.Type
+  nameWithType: RaRecordX.Type
+- uid: ToughboxAPI.RaRecordX.Type*
   name: Type
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Type_
-  commentId: Overload:ToughboxAPI.RaRecord.Type
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Type_
+  commentId: Overload:ToughboxAPI.RaRecordX.Type
   isSpec: "True"
-  fullName: ToughboxAPI.RaRecord.Type
-  nameWithType: RaRecord.Type
-- uid: ToughboxAPI.RaRecord.Username
+  fullName: ToughboxAPI.RaRecordX.Type
+  nameWithType: RaRecordX.Type
+- uid: ToughboxAPI.RaRecordX.Username
   name: Username
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Username
-  commentId: P:ToughboxAPI.RaRecord.Username
-  fullName: ToughboxAPI.RaRecord.Username
-  nameWithType: RaRecord.Username
-- uid: ToughboxAPI.RaRecord.Username*
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Username
+  commentId: P:ToughboxAPI.RaRecordX.Username
+  fullName: ToughboxAPI.RaRecordX.Username
+  nameWithType: RaRecordX.Username
+- uid: ToughboxAPI.RaRecordX.Username*
   name: Username
-  href: api/ToughboxAPI.RaRecord.html#ToughboxAPI_RaRecord_Username_
-  commentId: Overload:ToughboxAPI.RaRecord.Username
+  href: api/ToughboxAPI.RaRecordX.html#ToughboxAPI_RaRecordX_Username_
+  commentId: Overload:ToughboxAPI.RaRecordX.Username
   isSpec: "True"
-  fullName: ToughboxAPI.RaRecord.Username
-  nameWithType: RaRecord.Username
-- uid: ToughboxAPI.RecoveredSecret
-  name: RecoveredSecret
-  href: api/ToughboxAPI.RecoveredSecret.html
-  commentId: T:ToughboxAPI.RecoveredSecret
-  fullName: ToughboxAPI.RecoveredSecret
-  nameWithType: RecoveredSecret
-- uid: ToughboxAPI.RecoveredSecret.Secret
-  name: Secret
-  href: api/ToughboxAPI.RecoveredSecret.html#ToughboxAPI_RecoveredSecret_Secret
-  commentId: P:ToughboxAPI.RecoveredSecret.Secret
-  fullName: ToughboxAPI.RecoveredSecret.Secret
-  nameWithType: RecoveredSecret.Secret
-- uid: ToughboxAPI.RecoveredSecret.Secret*
-  name: Secret
-  href: api/ToughboxAPI.RecoveredSecret.html#ToughboxAPI_RecoveredSecret_Secret_
-  commentId: Overload:ToughboxAPI.RecoveredSecret.Secret
-  isSpec: "True"
-  fullName: ToughboxAPI.RecoveredSecret.Secret
-  nameWithType: RecoveredSecret.Secret
-- uid: ToughboxAPI.RecoveredSecret.SecretName
-  name: SecretName
-  href: api/ToughboxAPI.RecoveredSecret.html#ToughboxAPI_RecoveredSecret_SecretName
-  commentId: P:ToughboxAPI.RecoveredSecret.SecretName
-  fullName: ToughboxAPI.RecoveredSecret.SecretName
-  nameWithType: RecoveredSecret.SecretName
-- uid: ToughboxAPI.RecoveredSecret.SecretName*
-  name: SecretName
-  href: api/ToughboxAPI.RecoveredSecret.html#ToughboxAPI_RecoveredSecret_SecretName_
-  commentId: Overload:ToughboxAPI.RecoveredSecret.SecretName
-  isSpec: "True"
-  fullName: ToughboxAPI.RecoveredSecret.SecretName
-  nameWithType: RecoveredSecret.SecretName
-- uid: ToughboxAPI.RecoveredSecret.SecretType
-  name: SecretType
-  href: api/ToughboxAPI.RecoveredSecret.html#ToughboxAPI_RecoveredSecret_SecretType
-  commentId: P:ToughboxAPI.RecoveredSecret.SecretType
-  fullName: ToughboxAPI.RecoveredSecret.SecretType
-  nameWithType: RecoveredSecret.SecretType
-- uid: ToughboxAPI.RecoveredSecret.SecretType*
-  name: SecretType
-  href: api/ToughboxAPI.RecoveredSecret.html#ToughboxAPI_RecoveredSecret_SecretType_
-  commentId: Overload:ToughboxAPI.RecoveredSecret.SecretType
-  isSpec: "True"
-  fullName: ToughboxAPI.RecoveredSecret.SecretType
-  nameWithType: RecoveredSecret.SecretType
-- uid: ToughboxAPI.RecoveryRequestRecord
-  name: RecoveryRequestRecord
-  href: api/ToughboxAPI.RecoveryRequestRecord.html
-  commentId: T:ToughboxAPI.RecoveryRequestRecord
-  fullName: ToughboxAPI.RecoveryRequestRecord
-  nameWithType: RecoveryRequestRecord
-- uid: ToughboxAPI.RecoveryRequestRecord.EnrollmentRecord
-  name: EnrollmentRecord
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_EnrollmentRecord
-  commentId: P:ToughboxAPI.RecoveryRequestRecord.EnrollmentRecord
-  fullName: ToughboxAPI.RecoveryRequestRecord.EnrollmentRecord
-  nameWithType: RecoveryRequestRecord.EnrollmentRecord
-- uid: ToughboxAPI.RecoveryRequestRecord.EnrollmentRecord*
-  name: EnrollmentRecord
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_EnrollmentRecord_
-  commentId: Overload:ToughboxAPI.RecoveryRequestRecord.EnrollmentRecord
-  isSpec: "True"
-  fullName: ToughboxAPI.RecoveryRequestRecord.EnrollmentRecord
-  nameWithType: RecoveryRequestRecord.EnrollmentRecord
-- uid: ToughboxAPI.RecoveryRequestRecord.RecoverySession
-  name: RecoverySession
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_RecoverySession
-  commentId: P:ToughboxAPI.RecoveryRequestRecord.RecoverySession
-  fullName: ToughboxAPI.RecoveryRequestRecord.RecoverySession
-  nameWithType: RecoveryRequestRecord.RecoverySession
-- uid: ToughboxAPI.RecoveryRequestRecord.RecoverySession*
-  name: RecoverySession
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_RecoverySession_
-  commentId: Overload:ToughboxAPI.RecoveryRequestRecord.RecoverySession
-  isSpec: "True"
-  fullName: ToughboxAPI.RecoveryRequestRecord.RecoverySession
-  nameWithType: RecoveryRequestRecord.RecoverySession
-- uid: ToughboxAPI.RecoveryRequestRecord.RecoverySessionType
-  name: RecoverySessionType
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_RecoverySessionType
-  commentId: P:ToughboxAPI.RecoveryRequestRecord.RecoverySessionType
-  fullName: ToughboxAPI.RecoveryRequestRecord.RecoverySessionType
-  nameWithType: RecoveryRequestRecord.RecoverySessionType
-- uid: ToughboxAPI.RecoveryRequestRecord.RecoverySessionType*
-  name: RecoverySessionType
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_RecoverySessionType_
-  commentId: Overload:ToughboxAPI.RecoveryRequestRecord.RecoverySessionType
-  isSpec: "True"
-  fullName: ToughboxAPI.RecoveryRequestRecord.RecoverySessionType
-  nameWithType: RecoveryRequestRecord.RecoverySessionType
-- uid: ToughboxAPI.RecoveryRequestRecord.SessionID
-  name: SessionID
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_SessionID
-  commentId: P:ToughboxAPI.RecoveryRequestRecord.SessionID
-  fullName: ToughboxAPI.RecoveryRequestRecord.SessionID
-  nameWithType: RecoveryRequestRecord.SessionID
-- uid: ToughboxAPI.RecoveryRequestRecord.SessionID*
-  name: SessionID
-  href: api/ToughboxAPI.RecoveryRequestRecord.html#ToughboxAPI_RecoveryRequestRecord_SessionID_
-  commentId: Overload:ToughboxAPI.RecoveryRequestRecord.SessionID
-  isSpec: "True"
-  fullName: ToughboxAPI.RecoveryRequestRecord.SessionID
-  nameWithType: RecoveryRequestRecord.SessionID
+  fullName: ToughboxAPI.RaRecordX.Username
+  nameWithType: RaRecordX.Username
 - uid: ToughboxAPI.RecoveryResponseRecord
   name: RecoveryResponseRecord
   href: api/ToughboxAPI.RecoveryResponseRecord.html
@@ -1611,51 +977,6 @@ references:
   isSpec: "True"
   fullName: ToughboxAPI.SessionTransportEncryptRequest.TransportType
   nameWithType: SessionTransportEncryptRequest.TransportType
-- uid: ToughboxAPI.SessionTransportRequest
-  name: SessionTransportRequest
-  href: api/ToughboxAPI.SessionTransportRequest.html
-  commentId: T:ToughboxAPI.SessionTransportRequest
-  fullName: ToughboxAPI.SessionTransportRequest
-  nameWithType: SessionTransportRequest
-- uid: ToughboxAPI.SessionTransportRequest.ClientPublic
-  name: ClientPublic
-  href: api/ToughboxAPI.SessionTransportRequest.html#ToughboxAPI_SessionTransportRequest_ClientPublic
-  commentId: P:ToughboxAPI.SessionTransportRequest.ClientPublic
-  fullName: ToughboxAPI.SessionTransportRequest.ClientPublic
-  nameWithType: SessionTransportRequest.ClientPublic
-- uid: ToughboxAPI.SessionTransportRequest.ClientPublic*
-  name: ClientPublic
-  href: api/ToughboxAPI.SessionTransportRequest.html#ToughboxAPI_SessionTransportRequest_ClientPublic_
-  commentId: Overload:ToughboxAPI.SessionTransportRequest.ClientPublic
-  isSpec: "True"
-  fullName: ToughboxAPI.SessionTransportRequest.ClientPublic
-  nameWithType: SessionTransportRequest.ClientPublic
-- uid: ToughboxAPI.SessionTransportRequest.SessionID
-  name: SessionID
-  href: api/ToughboxAPI.SessionTransportRequest.html#ToughboxAPI_SessionTransportRequest_SessionID
-  commentId: P:ToughboxAPI.SessionTransportRequest.SessionID
-  fullName: ToughboxAPI.SessionTransportRequest.SessionID
-  nameWithType: SessionTransportRequest.SessionID
-- uid: ToughboxAPI.SessionTransportRequest.SessionID*
-  name: SessionID
-  href: api/ToughboxAPI.SessionTransportRequest.html#ToughboxAPI_SessionTransportRequest_SessionID_
-  commentId: Overload:ToughboxAPI.SessionTransportRequest.SessionID
-  isSpec: "True"
-  fullName: ToughboxAPI.SessionTransportRequest.SessionID
-  nameWithType: SessionTransportRequest.SessionID
-- uid: ToughboxAPI.SessionTransportRequest.TransportType
-  name: TransportType
-  href: api/ToughboxAPI.SessionTransportRequest.html#ToughboxAPI_SessionTransportRequest_TransportType
-  commentId: P:ToughboxAPI.SessionTransportRequest.TransportType
-  fullName: ToughboxAPI.SessionTransportRequest.TransportType
-  nameWithType: SessionTransportRequest.TransportType
-- uid: ToughboxAPI.SessionTransportRequest.TransportType*
-  name: TransportType
-  href: api/ToughboxAPI.SessionTransportRequest.html#ToughboxAPI_SessionTransportRequest_TransportType_
-  commentId: Overload:ToughboxAPI.SessionTransportRequest.TransportType
-  isSpec: "True"
-  fullName: ToughboxAPI.SessionTransportRequest.TransportType
-  nameWithType: SessionTransportRequest.TransportType
 - uid: ToughboxAPI.StartRecoveryRequest
   name: StartRecoveryRequest
   href: api/ToughboxAPI.StartRecoveryRequest.html
@@ -1714,64 +1035,6 @@ references:
   isSpec: "True"
   fullName: ToughboxAPI.StartRecoveryRequest.SessionAuthType
   nameWithType: StartRecoveryRequest.SessionAuthType
-- uid: ToughboxAPI.UsersRecoveryAgents
-  name: UsersRecoveryAgents
-  href: api/ToughboxAPI.UsersRecoveryAgents.html
-  commentId: T:ToughboxAPI.UsersRecoveryAgents
-  fullName: ToughboxAPI.UsersRecoveryAgents
-  nameWithType: UsersRecoveryAgents
-- uid: ToughboxAPI.UsersRecoveryAgents.Agents
-  name: Agents
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Agents
-  commentId: P:ToughboxAPI.UsersRecoveryAgents.Agents
-  fullName: ToughboxAPI.UsersRecoveryAgents.Agents
-  nameWithType: UsersRecoveryAgents.Agents
-- uid: ToughboxAPI.UsersRecoveryAgents.Agents*
-  name: Agents
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Agents_
-  commentId: Overload:ToughboxAPI.UsersRecoveryAgents.Agents
-  isSpec: "True"
-  fullName: ToughboxAPI.UsersRecoveryAgents.Agents
-  nameWithType: UsersRecoveryAgents.Agents
-- uid: ToughboxAPI.UsersRecoveryAgents.Groupname
-  name: Groupname
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Groupname
-  commentId: P:ToughboxAPI.UsersRecoveryAgents.Groupname
-  fullName: ToughboxAPI.UsersRecoveryAgents.Groupname
-  nameWithType: UsersRecoveryAgents.Groupname
-- uid: ToughboxAPI.UsersRecoveryAgents.Groupname*
-  name: Groupname
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Groupname_
-  commentId: Overload:ToughboxAPI.UsersRecoveryAgents.Groupname
-  isSpec: "True"
-  fullName: ToughboxAPI.UsersRecoveryAgents.Groupname
-  nameWithType: UsersRecoveryAgents.Groupname
-- uid: ToughboxAPI.UsersRecoveryAgents.Organization
-  name: Organization
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Organization
-  commentId: P:ToughboxAPI.UsersRecoveryAgents.Organization
-  fullName: ToughboxAPI.UsersRecoveryAgents.Organization
-  nameWithType: UsersRecoveryAgents.Organization
-- uid: ToughboxAPI.UsersRecoveryAgents.Organization*
-  name: Organization
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Organization_
-  commentId: Overload:ToughboxAPI.UsersRecoveryAgents.Organization
-  isSpec: "True"
-  fullName: ToughboxAPI.UsersRecoveryAgents.Organization
-  nameWithType: UsersRecoveryAgents.Organization
-- uid: ToughboxAPI.UsersRecoveryAgents.Username
-  name: Username
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Username
-  commentId: P:ToughboxAPI.UsersRecoveryAgents.Username
-  fullName: ToughboxAPI.UsersRecoveryAgents.Username
-  nameWithType: UsersRecoveryAgents.Username
-- uid: ToughboxAPI.UsersRecoveryAgents.Username*
-  name: Username
-  href: api/ToughboxAPI.UsersRecoveryAgents.html#ToughboxAPI_UsersRecoveryAgents_Username_
-  commentId: Overload:ToughboxAPI.UsersRecoveryAgents.Username
-  isSpec: "True"
-  fullName: ToughboxAPI.UsersRecoveryAgents.Username
-  nameWithType: UsersRecoveryAgents.Username
 - uid: ToughcloudClientLib
   name: ToughcloudClientLib
   href: api/ToughcloudClientLib.html
@@ -2116,15 +1379,15 @@ references:
   isSpec: "True"
   fullName: ToughcloudClientLib.ToughcloudClientAPI.DownloadFile
   nameWithType: ToughcloudClientAPI.DownloadFile
-- uid: ToughcloudClientLib.ToughcloudClientAPI.FileStatus(System.String,System.String,System.String)
-  name: FileStatus(string, string, string)
-  href: api/ToughcloudClientLib.ToughcloudClientAPI.html#ToughcloudClientLib_ToughcloudClientAPI_FileStatus_System_String_System_String_System_String_
-  commentId: M:ToughcloudClientLib.ToughcloudClientAPI.FileStatus(System.String,System.String,System.String)
-  name.vb: FileStatus(String, String, String)
-  fullName: ToughcloudClientLib.ToughcloudClientAPI.FileStatus(string, string, string)
-  fullName.vb: ToughcloudClientLib.ToughcloudClientAPI.FileStatus(String, String, String)
-  nameWithType: ToughcloudClientAPI.FileStatus(string, string, string)
-  nameWithType.vb: ToughcloudClientAPI.FileStatus(String, String, String)
+- uid: ToughcloudClientLib.ToughcloudClientAPI.FileStatus(System.String,System.String,System.String,System.String)
+  name: FileStatus(string, string, string, string?)
+  href: api/ToughcloudClientLib.ToughcloudClientAPI.html#ToughcloudClientLib_ToughcloudClientAPI_FileStatus_System_String_System_String_System_String_System_String_
+  commentId: M:ToughcloudClientLib.ToughcloudClientAPI.FileStatus(System.String,System.String,System.String,System.String)
+  name.vb: FileStatus(String, String, String, String)
+  fullName: ToughcloudClientLib.ToughcloudClientAPI.FileStatus(string, string, string, string?)
+  fullName.vb: ToughcloudClientLib.ToughcloudClientAPI.FileStatus(String, String, String, String)
+  nameWithType: ToughcloudClientAPI.FileStatus(string, string, string, string?)
+  nameWithType.vb: ToughcloudClientAPI.FileStatus(String, String, String, String)
 - uid: ToughcloudClientLib.ToughcloudClientAPI.FileStatus*
   name: FileStatus
   href: api/ToughcloudClientLib.ToughcloudClientAPI.html#ToughcloudClientLib_ToughcloudClientAPI_FileStatus_
@@ -2180,6 +1443,19 @@ references:
   isSpec: "True"
   fullName: ToughcloudClientLib.ToughcloudClientAPI.ToughcloudCompleteRecovery
   nameWithType: ToughcloudClientAPI.ToughcloudCompleteRecovery
+- uid: ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom
+  name: ToughcloudGenRandom()
+  href: api/ToughcloudClientLib.ToughcloudClientAPI.html#ToughcloudClientLib_ToughcloudClientAPI_ToughcloudGenRandom
+  commentId: M:ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom
+  fullName: ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom()
+  nameWithType: ToughcloudClientAPI.ToughcloudGenRandom()
+- uid: ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom*
+  name: ToughcloudGenRandom
+  href: api/ToughcloudClientLib.ToughcloudClientAPI.html#ToughcloudClientLib_ToughcloudClientAPI_ToughcloudGenRandom_
+  commentId: Overload:ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom
+  isSpec: "True"
+  fullName: ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGenRandom
+  nameWithType: ToughcloudClientAPI.ToughcloudGenRandom
 - uid: ToughcloudClientLib.ToughcloudClientAPI.ToughcloudGetVersion
   name: ToughcloudGetVersion()
   href: api/ToughcloudClientLib.ToughcloudClientAPI.html#ToughcloudClientLib_ToughcloudClientAPI_ToughcloudGetVersion
